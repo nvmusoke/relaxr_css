@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Namanda Musoke
+Developer @GA in Austin, TX
+*/
+
+
+/******************************************
+/* Custom Styles
+/*******************************************/
+body{
+  font-family: 'Open Sans',sans-serif;
+}
+header{
+	background-image: url("../images/header_bg.jpg");
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+h1{
+  text-align: left;
+}
+h2{
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+h3{
+  color: navy;
+  font-size: 20px;
+  font-weight: 600;
+}
+h4{
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+p{
+  color: #606161;
+  font-weight: 200;
+  font-size: 13px;
+}
+li{
+  color: #606161;
+  font-weight: 200;
+  font-size: 13px;
+  list-style: disc;
+}
+blockquote{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  margin: 0 auto;
+}
+blockquote span {
+  font-weight: 600;
+  font-style: normal;
+}
+aside{
+  background-color: #f9e42e;
+  padding: 20px 0;
+  text-align: center;
+}
+footer{
+  background-color: #121212;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+footer ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.logo{
+  padding: 20px 40px 0 20px;
+  font-weight: 900;
+  font-size: 24px;
+}
+.button-yellow{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 10px 20px;
+  background-color: #f9e42e;
+  color: navy;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button-blue{
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #033048;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.copyright{
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+}
+#benefits{
+  background-size: auto;
+  background-color: #f0efef;
+  padding: 40px 60px;
+}
+#testimonial{
+  background-image: url("../images/testimonial_bg.jpg");
+  color: white;
+  font-size: 18px;
+  padding: 50px 0;
+}
